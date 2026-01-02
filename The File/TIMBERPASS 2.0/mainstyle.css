@@ -1,0 +1,312 @@
+/*This file handles all of the styling for every HTML element other than the moving blue stripes.*/
+
+body {
+    background-color: rgb(37, 37, 37);
+    overflow: hidden;
+}
+#topDiv {
+    background-color: rgb(37, 37, 37);
+    position: relative;
+    width: fill;
+    height: 40px;
+    margin: -10px;
+    padding: 0px;
+}
+
+#subTopDiv {
+    background-color: rgb(88, 124, 202);
+    position: relative;
+    width: fill;
+    height: 60px;
+    margin: -10px;
+    padding: 20px;
+    animation-name: morph;
+    animation-duration: 2;
+    animation-iteration-count: infinite;
+}
+
+#esasdLink {
+    color:rgb(201, 201, 201)
+}
+
+#esasdLink:hover {
+    color:rgb(245, 245, 245)
+}
+
+#esasdLink:active {
+    color:rgb(153, 153, 153)
+}
+
+#northLogo {
+    height: 60px;
+    width: 90px;
+    user-select: none;
+}
+
+#LISTitle {
+    float: right;
+    margin-right: 30px;
+    font-size: 24px;
+    font-family: sans-serif;
+    font-weight: bold
+}
+
+#frontDiv {
+    position: absolute;
+    background-color: rgb(221, 221, 221);
+    border-left: 10px solid rgb(88, 124, 202);
+    border-bottom: 10px solid rgb(88, 124, 202);
+    border-top: 10px solid rgb(88, 124, 202);
+    border-radius: 2px;
+    top: 180px;
+    right: -10vw;
+    padding: 16px;
+    padding-left: 64px;
+    width: 70vw;
+    height: 65vh;
+    color:rgb(37, 37, 37);
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+#teachDiv {
+    display: block;
+    position: absolute;
+    background-color: rgb(221, 221, 221);
+    border-right: .5vw solid rgb(88, 124, 202);
+    border-bottom: 1vh solid rgb(88, 124, 202);
+    border-left: .5vw solid rgb(88, 124, 202);
+    border-top: 1vh solid rgb(88, 124, 202);
+    height: 75vh;
+    width: 82vw;
+    left: 9vw;
+    bottom: -85vh;
+    color: rgb(37, 37, 37);
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+#scrollList {
+    display: block;
+    position: relative;
+    background-color: rgb(221, 221, 221);
+    border: 4px solid rgb(37, 37, 37);
+    height: 65vh;
+    width: 80vw;
+    left: .9vw;
+    bottom: -3vh;
+    color: rgb(37, 37, 37);
+    overflow-y: scroll;
+    font-size: 20px;
+}
+
+#rightTitle {
+    position: relative;
+    font-size: 48px;    
+    font-family: sans-serif;
+    float: left;
+    font-weight: bold;
+    display: block;
+}
+
+.blackText {
+    color: rgb(37, 37, 37);
+    font-size: 24px;
+    font-family: sans-serif;
+}
+
+#stopwatch {
+    color: rgb(37, 37, 37);
+    font-size: 48px;
+    font-family: sans-serif;
+    display: block;
+    position: absolute;
+    left: 65px;
+    top: 60px;
+}
+
+#retbutton {
+    position: absolute;
+    bottom: 65px;
+    left: 6005px;
+    height: 240px;
+    width: 240px;
+    border: 8px solid rgb(37, 37, 37); 
+    border-radius: 2px;
+    background-color:rgb(88, 124, 202);
+    font-size: 48px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+#retbutton:hover {
+    position: absolute;
+    bottom: 65px;
+    left: 65px;
+    height: 240px;
+    width: 240px;
+    border: 8px solid rgb(61, 61, 61);
+    border-radius: 2px;
+    background-image: url(images/BlueSample.PNG);
+    font-size: 48px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+#retbutton:active {
+    position: absolute;
+    bottom: 65px;
+    left: 65px;
+    height: 240px;
+    width: 240px;
+    border: 8px solid rgb(37, 37, 37);
+    border-radius: 2px;
+    background-color:rgb(88, 124, 202);
+    font-size: 48px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+#teachbutton {
+    position: absolute;
+    bottom: 5020px;
+    left: 20px;
+    border: 4px solid rgb(37, 37, 37); 
+    border-radius: 1px;
+    background-color:rgb(88, 124, 202);
+    font-size: 32px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+#teachbutton:hover {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    border: 4px solid rgb(61, 61, 61); 
+    border-radius: 1px;
+    background-image: url(images/BlueSample.PNG);
+    font-size: 32px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+#teachbutton:active {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    border: 4px solid rgb(37, 37, 37); 
+    border-radius: 1px;
+    background-color: rgb(88, 124, 202);
+    font-size: 32px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+#refillbutton {
+    position: absolute;
+    bottom: 5020px;
+    left: 20px;
+    border: 4px solid rgb(37, 37, 37); 
+    border-radius: 1px;
+    background-color:rgb(88, 124, 202);
+    font-size: 32px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+#refillbutton:hover {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    border: 4px solid rgb(61, 61, 61); 
+    border-radius: 1px;
+    background-image: url(images/BlueSample.PNG);
+    font-size: 32px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+#refillbutton:active {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    border: 4px solid rgb(37, 37, 37); 
+    border-radius: 1px;
+    background-color: rgb(88, 124, 202);
+    font-size: 32px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+#submitbutton {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    border: 4px solid rgb(37, 37, 37); 
+    border-radius: 1px;
+    background-color:rgb(88, 124, 202);
+    font-size: 32px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+#submitbutton:hover {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    border: 4px solid rgb(61, 61, 61); 
+    border-radius: 1px;
+    background-image: url(images/BlueSample.PNG);
+    font-size: 32px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+#submitbutton:active {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    border: 4px solid rgb(37, 37, 37); 
+    border-radius: 1px;
+    background-color: rgb(88, 124, 202);
+    font-size: 32px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.inputSection {
+    background-image: url(images/BlueSample.PNG);
+    font-size: 20px;
+}
+
+#locationSelection {
+    background-image: url(images/BlueSample.PNG);
+    font-size: 20px;
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid grey;
+    border-bottom: 2px solid grey;
+    width: 260px;
+    cursor: pointer;
+}
+
+#studentInfo {
+    font-size: 24px;
+    font-family: sans-serif;
+    font-weight: bold;
+    position: absolute;
+    top: 100px;
+    left: 65px;
+}
+
+#studentTable,
+td {
+    position: relative;
+    border: 1px solid #333;
+    width: 100%;
+}
+
+.teacherTitle, .FNameDisplay, .LNameDisplay, .IDDisplay, .SRoomDisplay, .destinationDisplay, .timeLeftDisplay, .timeSpentDisplay  {
+    width: 14.2857143%;
+}

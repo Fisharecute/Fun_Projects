@@ -1,0 +1,116 @@
+<!--All HTML handling-->
+
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="Diego Cano">
+        <meta name="description" content="Digital hall pass for High School North.">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title id="gitTitle">TIMBERPASS</title>
+        <!--FAVICON BELOW-->
+        <link rel="icon" href="images/pixil-frame-0.png">
+        <link rel="stylesheet" type="text/css" href="mainstyle.css">
+        <link rel="stylesheet" type="text/css" href="stripeanim.css">
+        <script src="mainline.js"></script>
+        <script src="switchout.js"></script>
+        <script src="timer.js"></script>
+        <script src="teaview.js"></script>
+    </head>
+        <img src="images/BlueSample.PNG" id="stripeOne">
+        <img src="images/BlueSample.PNG" id="stripeTwo">
+        <img src="images/BlueSample.PNG" id="stripeThree">
+        <img src="images/BlueSample.PNG" id="stripeFour">
+        <img src="images/BlueSample.PNG" id="stripeFive">
+        <img src="images/BlueSample.PNG" id="stripeSix">
+        <img src="images/BlueSample.PNG" id="stripeSeven">
+        <img src="images/BlueSample.PNG" id="stripeEight">
+        <img src="images/BlueSample.PNG" id="stripeNine">
+    <body>
+    
+    <!--Don't touch-->
+        <div id="teachDiv">
+            <div id="scrollList">
+                <table id="studentTable">
+                    <colgroup span="4"></colgroup>
+                    <tr>
+                        <th class="teacherTitle">First Name</th>
+                        <th class="teacherTitle">Last Name</th>
+                        <th class="teacherTitle">Student ID</th>
+                        <th class="teacherTitle">Starting Room</th>
+                        <th class="teacherTitle">Destination</th>
+                        <th class="teacherTitle">Time Departed</th>
+                        <th class="teacherTitle">Time Spent</th>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    <!--Don't touch-->
+
+        <div id="topDiv">
+            <div style="margin-top: 20px; margin-left: 10px;">
+                <a target="_blank" id="esasdLink" href="https://www.esasd.net/">ESASD Homepage</a>
+            </div>
+        </div>
+        <div id="subTopDiv">
+            <img id="northLogo" src="images/Northlogo.png">
+            <h1 id="LISTitle">TIMBERPASS</h1>
+        </div>
+        <div id="frontDiv">
+            <div id="embeddedDivOne">
+        <h1 id="rightTitle">Student Register</h1>
+
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br> 
+            <br>
+
+
+            <p style="display: inline;" class="blackText"><u>First Name:</u> </p>
+            <input class="inputSection" id="inputFName"></input>
+
+            <br>
+            <br>
+
+            <p style="display: inline;" class="blackText"><u>Last Name:</u> </p>
+            <input class="inputSection" id="inputLName"></input>
+
+            <br>
+            <br>
+
+            <p style="display: inline;" class="blackText"><u>Student ID:</u> </p>
+            <input class="inputSection" id="inputID"></input>
+
+            <br>
+            <br>
+
+            <p style="display: inline;" class="blackText"><u>Current Room:</u> </p>
+            <input class="inputSection" id="inputCRoom"></input>
+
+            <br>
+            <br>
+
+            <p style="display: inline;" class="blackText"><u>Location Headed:</u> </p>
+            <select id="locationSelection">
+              <option>Bathroom</option>
+              <option>Main Office</option>
+              <option>Nurse</option>
+              <option>Guidance</option>
+              <option>Library</option>
+              <option>Lockers</option>
+            </select>
+            </div>
+            <!--BUTTONS-->
+            <button id="submitbutton" style="cursor: pointer;" onclick="submitted()">Submit</button>
+            <button id="retbutton" style="cursor: pointer;" onclick="rerebuild()">Return</button>
+            <button id="teachbutton" style="cursor: pointer;" onclick="toggleTeacher()">Teacher View</button>
+            <button id="refillbutton" style="cursor: pointer;" onclick="refill()">Refill Pass</button>
+            <!--BUTTONS-->
+        </div>
+    </body>
+</html>
+
+

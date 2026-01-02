@@ -1,0 +1,306 @@
+/*This file handles the animations for the blue stripes that are in the background*/
+
+#stripeOne {
+  margin-left: -10px;
+  margin-right: -10px;
+  position: absolute;
+  width: 101vw;
+  height: 11vh;
+  background: url(images/BlueSample.PNG) no-repeat;
+  animation-name: slide-bl-one;
+  animation-delay: 1s;
+  animation-duration: 52s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-direction: forwards;
+  animation-fill-mode: forwards;
+  user-select: none;
+}
+@keyframes slide-bl-one {
+  0%{
+    transform: translateY(0vh) translateX(0);
+  }
+  3.4615% {
+    transform: translateY(10vh) translateX(0px);
+  }
+  50% {
+    transform: translateY(10vh) translateX(0px);
+  }
+  56% {
+    transform: translateY(110vh) translateX(0px)
+  }
+  100% {
+    transform: translateY(110vh) translateX(0px);
+  }
+}
+
+#stripeTwo {
+  margin-left: -10px;
+  margin-right: -10px;
+  position: absolute;
+  width: 101vw;
+  height: 11vh;
+  background: url(images/BlueSample.PNG) no-repeat;
+  animation-name: slide-bl-two;
+  animation-delay: 2s;
+  animation-duration: 52s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  animation-fill-mode: forwards;
+  user-select: none;
+}
+@keyframes slide-bl-two {
+  0%{
+    transform: translateY(0vh) translateX(0);
+  }
+  3.4615% {
+    transform: translateY(20vh) translateX(0px);
+  }
+  50% {
+    transform: translateY(20vh) translateX(0px);
+  }
+  56% {
+    transform: translateY(120vh) translateX(0px)
+  }
+  100% {
+    transform: translateY(120vh) translateX(0px);
+  }
+}
+
+#stripeThree {
+  margin-left: -10px;
+  margin-right: -10px;
+  position: absolute;
+  width: 101vw;
+  height: 11vh;
+  background: url(images/BlueSample.PNG) no-repeat;
+  animation-name: slide-bl-three;
+  animation-delay: 3s;
+  animation-duration: 52s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  animation-fill-mode: forwards;
+  user-select: none;
+}
+@keyframes slide-bl-three {
+  0%{
+    transform: translateY(0vh) translateX(0);
+  }
+  3.4615% {
+    transform: translateY(30vh) translateX(0px);
+  }
+  50% {
+    transform: translateY(30vh) translateX(0px);
+  }
+  56% {
+    transform: translateY(130vh) translateX(0px)
+  }
+  100% {
+    transform: translateY(130vh) translateX(0px);
+  }
+}
+
+#stripeFour {
+  margin-left: -10px;
+  margin-right: -10px;
+  position: absolute;
+  width: 101vw;
+  height: 11vh;
+  background: url(images/BlueSample.PNG) no-repeat;
+  animation-name: slide-bl-four;
+  animation-delay: 4s;
+  animation-duration: 52s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  animation-fill-mode: forwards;
+  user-select: none;
+}
+@keyframes slide-bl-four {
+  0%{
+    transform: translateY(0vh) translateX(0);
+  }
+  3.4615% {
+    transform: translateY(40vh) translateX(0px);
+  }
+  50% {
+    transform: translateY(40vh) translateX(0px);
+  }
+  56% {
+    transform: translateY(140vh) translateX(0px)
+  }
+  100% {
+    transform: translateY(140vh) translateX(0px);
+  }
+}
+#stripeFive {
+  margin-left: -10px;
+  margin-right: -10px;
+  position: absolute;
+  width: 101vw;
+  height: 11vh;
+  background: url(images/BlueSample.PNG) no-repeat;
+  animation-name: slide-bl-five;
+  animation-delay: 5s;
+  animation-duration: 52s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  animation-fill-mode: forwards;
+  user-select: none;
+}
+@keyframes slide-bl-five {
+  0%{
+    transform: translateY(0vh) translateX(0);
+  }
+  3.4615% {
+    transform: translateY(50vh) translateX(0px);
+  }
+  50% {
+    transform: translateY(50vh) translateX(0px);
+  }
+  56% {
+    transform: translateY(150vh) translateX(0px)
+  }
+  100% {
+    transform: translateY(150vh) translateX(0px);
+  }
+}
+
+#stripeSix {
+  margin-left: -10px;
+  margin-right: -10px;
+  position: absolute;
+  width: 101vw;
+  height: 11vh;
+  background: url(images/BlueSample.PNG) no-repeat;
+  animation-name: slide-bl-six;
+  animation-delay: 6s;
+  animation-duration: 52s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  animation-fill-mode: forwards;
+  user-select: none;
+}
+@keyframes slide-bl-six {
+  0%{
+    transform: translateY(0vh) translateX(0);
+  }
+  3.4615% {
+    transform: translateY(60vh) translateX(0px);
+  }
+  50% {
+    transform: translateY(60vh) translateX(0px);
+  }
+  56% {
+    transform: translateY(160vh) translateX(0px)
+  }
+  100% {
+    transform: translateY(160vh) translateX(0px);
+  }
+}
+#stripeSeven {
+  margin-left: -10px;
+  margin-right: -10px;
+  position: absolute;
+  width: 101vw;
+  height: 11vh;
+  background: url(images/BlueSample.PNG) no-repeat;
+  animation-name: slide-bl-seven;
+  animation-delay: 7s;
+  animation-duration: 52s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  animation-fill-mode: forwards;
+  user-select: none;
+}
+@keyframes slide-bl-seven {
+  0%{
+    transform: translateY(0vh) translateX(0);
+  }
+  3.4615% {
+    transform: translateY(70vh) translateX(0px);
+  }
+  50% {
+    transform: translateY(70vh) translateX(0px);
+  }
+  56% {
+    transform: translateY(170vh) translateX(0px)
+  }
+  100% {
+    transform: translateY(170vh) translateX(0px);
+  }
+}
+
+#stripeEight {
+  margin-left: -10px;
+  margin-right: -10px;
+  position: absolute;
+  width: 101vw;
+  height: 11vh;
+  background: url(images/BlueSample.PNG) no-repeat;
+  animation-name: slide-bl-eight;
+  animation-delay: 8s;
+  animation-duration: 52s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  animation-fill-mode: forwards;
+  user-select: none;
+}
+@keyframes slide-bl-eight {
+  0%{
+    transform: translateY(0vh) translateX(0);
+  }
+  3.4615% {
+    transform: translateY(80vh) translateX(0px);
+  }
+  50% {
+    transform: translateY(80vh) translateX(0px);
+  }
+  56% {
+    transform: translateY(180vh) translateX(0px)
+  }
+  100% {
+    transform: translateY(180vh) translateX(0px);
+  }
+}
+
+
+#stripeNine {
+  margin-left: -10px;
+  margin-right: -10px;
+  position: absolute;
+  width: 101vw;
+  height: 11vh;
+  background: url(images/BlueSample.PNG) no-repeat;
+  animation-name: slide-bl-nine;
+  animation-delay: 9s;
+  animation-duration: 52s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  animation-fill-mode: forwards;
+  user-select: none;
+}
+@keyframes slide-bl-nine {
+  0%{
+    transform: translateY(0vh) translateX(0);
+  }
+  3.4615% {
+    transform: translateY(90vh) translateX(0px);
+  }
+  50% {
+    transform: translateY(90vh) translateX(0px);
+  }
+  56% {
+    transform: translateY(190vh) translateX(0px)
+  }
+  100% {
+    transform: translateY(190vh) translateX(0px);
+  }
+}
